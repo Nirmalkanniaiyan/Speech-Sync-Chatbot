@@ -15,7 +15,9 @@ load_dotenv()
 
 # end
 
-openai.api_key = "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"
+openai.api_key = ""
+// Enter your open AI api key
+
 st.title("Chatbot :  *Speech-Sync*")
 
 col3, col4 = st.columns([2, 3])
